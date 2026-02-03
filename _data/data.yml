@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: Jingon Lee
     tagline: Ph.D Student
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: JingonLee.jpg
 
     # Sidebar links
     email: ljg1501@gmail.com
@@ -42,7 +42,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      TODO
+      CAD engineer with over 6 years of expertise in digital design timing sign-off methodology, on-chip variation (OCV) aware timing analysis. Specialized in physical variation aware STA methodologies, estimating design margins. Currently researching design-tech co-opt. (DTCO) and enhance timing estimation accuracy in STA due to silicon-to-model mis-correlation at the design level.
 education:
     - degree: MSc in Electronics
       university: KAIST
@@ -58,71 +58,43 @@ experiences:
       time: 2024 - Present
       company: Samsung Electronics, Korea
       details: |
-        TODO 
+        DTCO: Lead the development of variation aware STA flows for 4nm, 3nm and 2nm technology nodes
+        - Developed a silicon-to-model mismatch aware STA methodology.
+        - Built STA flows accounting for interconnect skew, Vmin weak path analysis
+        - Developed aging-aware STA methodology
+        Supported timing closure by analyzing weak paths at STA, in collaboration with SOC designers.
+        Participated in library characterization committee at Samsung Foundry; defined parameter perturbation ranges for timing, power sensitivity libraries. 
+
     - role: Engineer
       time: 2019 - 2023
       company: Samsung Electronics, Korea
       details: |
-        TODO
+        DTCO: Implemented Local Layout Effect (LLE)-aware STA methodology for advanced nodes using Gate-All-Around (GAA) transistors.
+        - Developed and maintained STA flows for general foundry customers from 130nm to 2nm tech nodes.
+        - Estimated timing margins for foundry customers and IP designers.
+            - Accounting for On-chip variation (IR drop, thermal gradients, process variations and aging.)
+
     - role: Research Assistant
       time: 2017 - 2019
       company: KAIST, Korea
       details: |
-        TODO
-projects:
-    title: Projects
-    intro: >
-      TODO
-    assignments:
-      - title: Function and timing analysis tool 
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        Designed a timing estimation engine for full custom digital designs and developed a timing-aware functional verification flow using Verilog
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
     papers:
-      - title: The Art of Computer Programming
+      - title: 
         link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+        authors: 
+        conference: 
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Python
         level: 98%
-
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
